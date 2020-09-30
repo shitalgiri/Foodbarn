@@ -1,38 +1,320 @@
-.App {
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration,input[type=search]::-webkit-search-results-button,input[type=search]::-webkit-search-results-decoration{-webkit-appearance:none;-moz-appearance:none}input[type=search]{-webkit-appearance:none;-moz-appearance:none;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}textarea{overflow:auto;vertical-align:top;resize:vertical}audio,canvas,video{display:inline-block;max-width:100%}audio:not([controls]){display:none;height:0}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}a:focus{outline:thin dotted}a:active,a:hover{outline:0}img{border:0;-ms-interpolation-mode:bicubic}figure{margin:0}form{margin:0}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0;white-space:normal}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline}button,input{line-height:normal}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}button,html,input,select,textarea{color:#222}::-moz-selection{background:#b3d4fc;text-shadow:none}::selection{background:#b3d4fc;text-shadow:none}img{vertical-align:middle}fieldset{border:0;margin:0;padding:0}textarea{resize:vertical}.chromeframe{margin:.2em 0;background:#ccc;color:#000;padding:.2em 0}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: ''; clear: both; height: 0; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.visuallyHidden:not(:focus):not(:active) { position: absolute; width: 1px; height: 1px; margin: -1px;border: 0;padding: 0;white-space: nowrap;clip-path: inset(100%);clip: rect(00 0 0);overflow: hidden;}
+
+.wrapper {
+  max-width: 1024px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  background-image: url(./images/headerImg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  width: 100%;
+  color: rgb(252, 250, 250);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  letter-spacing: 3px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header h1 {
+  font-size: 5rem;
+  font-family: 'Courier Prime', monospace;
+  text-transform: uppercase;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+form fieldset select{
+  width: 12rem;
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form fieldset  {
+  line-height: 1rem;
+  padding: 2rem;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
+
+form .priceOption input{
+  visibility: hidden;
+}
+
+form .priceOption label {
+  cursor: pointer;
+  padding: 8px;
+  background: rgb(245, 238, 238);
+  border-radius: 8px;
+}
+
+form .priceOption input:checked + label {
+  filter: drop-shadow(0px 0px 8px rgb(33, 32, 32));
+}
+
+main, footer {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+  color: rgb(0, 20, 26);
+}
+
+main q {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  border: 1 px solid black;
+}
+
+.quote {
+  width: 70%;
+  background-color: #97c3f9;
+  padding: 2rem;
+  text-align: left;
+  filter: drop-shadow(2rem 2rem 0 rgb(55, 62, 82));
+  margin-top: 4rem;
+  border-radius: 4px;
+  color: black;
+}
+
+.quote p {
+  text-align: right;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+}
+
+.quote h2{
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 30px;
+  font-weight: bold;
+
+}
+
+form fieldset {
+  margin-top: 2rem;
+}
+
+form .priceOption{
+  margin-top: 0;
+}
+
+.displayRestaurants {
   display: flex;
-  flex-direction: column;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 5%;
+}
+
+.restoDetail {
+  width: 400px;
+  filter: drop-shadow(0px 0px 2px rgb(180, 180, 180));
+  margin-bottom: 4rem;
+  line-height: 1rem;
+  background-color: #fcfbfb;
+  overflow: hidden;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.restoDetail:hover {
+  filter: drop-shadow(0px 0px 20px rgb(155, 155, 155));
+}
+
+.restoDetail p{
+padding: 10px 20px;
+}
+
+.displayRestaurants img{
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  display: inline-block;
+  color: rgb(91, 91, 91);
+  background: rgb(91, 91, 91);
+}
+
+.displayRestaurants .mapIcon {
+  width: 20px;
+  height: 100%;
+  background: none;
+  padding: 4px;
+}
+
+.displayRestaurants .menuIcon {
+  width: 20px;
+  height: 100%;
+  background: none;
+  padding: 4px;
+}
+
+.displayRestaurants a:hover {
+  text-decoration: underline;
+}
+
+.menuRow {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.displayRestaurants a {
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.restoDetail .restroName {
+  font-size: 1.5rem;
+  padding: 20px;
+  padding-bottom: 0px;
+  text-align: center;
+  font-weight: bold;
+  color: #444;
+}
+
+footer{
+  background-color: #b3d4fc;
+  padding: 10px;
+}
+
+footer h2 {
+  text-align: center;
+}
+
+footer h2 a{
+  color:#ea593e;
+}
+
+@media (max-width: 910px) {
+  .restoDetail{
+    width: 350px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 850px) {
+  header h1 {
+    font-size: 4rem;
+  }
+
+  .restoDetail {
+    width: 100%;
+    display: flex;
+  }
+
+  .restroName {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 25px;
+  }
+
+  .displayRestaurants img {
+    width: 360px;
+  }
+
+  .quote q, .quote p {
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+
+  .quote h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .displayRestaurants img {
+    width: 320px;
+  }
+}
+
+@media (max-width: 700px) {
+  .displayRestaurants img {
+    width: 300px;
+  }
+
+  .restroName {
+    margin-top: 0.5rem;
+    margin-bottom: 0.75rem;
+    line-height: 25px;
+  }
+  
+}
+
+@media (max-width: 650px) {
+  .restoDetail {
+    width: 100%;
+    display: block;
+  }
+
+  .displayRestaurants img {
+    width: 100%;
+}
+}
+
+@media (max-width: 600px) {
+  .quote q, .quote p {
+    font-size: 1rem;
+    line-height: 20px;
+  }
+
+  .quote h2 {
+    font-size: 1.5rem;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  header {
+    height: 30vh;
+  }
+
+  form .priceOption label {
+    font-size: 1.5rem;
+  }
+
+  form label {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  form label {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  form .priceOption label {
+    font-size: 1.20rem;
+  }
+
+  form fieldset select{
+    width: 8rem;
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 335px) {
+  form label {
+    font-size: 1rem;
+  }
+
+  form .priceOption label {
+    font-size: 0.75rem;
   }
 }
