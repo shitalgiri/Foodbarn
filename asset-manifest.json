@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/shital-giri-project-5/static/css/main.366fe8c2.chunk.css",
+    "main.js": "/shital-giri-project-5/static/js/main.fd1188f2.chunk.js",
+    "main.js.map": "/shital-giri-project-5/static/js/main.fd1188f2.chunk.js.map",
+    "runtime-main.js": "/shital-giri-project-5/static/js/runtime-main.a0038b8c.js",
+    "runtime-main.js.map": "/shital-giri-project-5/static/js/runtime-main.a0038b8c.js.map",
+    "static/js/2.278fc572.chunk.js": "/shital-giri-project-5/static/js/2.278fc572.chunk.js",
+    "static/js/2.278fc572.chunk.js.map": "/shital-giri-project-5/static/js/2.278fc572.chunk.js.map",
+    "index.html": "/shital-giri-project-5/index.html",
+    "precache-manifest.c3042cc7c78eb995c655e1f971cb8358.js": "/shital-giri-project-5/precache-manifest.c3042cc7c78eb995c655e1f971cb8358.js",
+    "service-worker.js": "/shital-giri-project-5/service-worker.js",
+    "static/css/main.366fe8c2.chunk.css.map": "/shital-giri-project-5/static/css/main.366fe8c2.chunk.css.map",
+    "static/js/2.278fc572.chunk.js.LICENSE.txt": "/shital-giri-project-5/static/js/2.278fc572.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/shital-giri-project-5/static/media/headerImg.b1236523.jpg",
+    "static/media/map.svg": "/shital-giri-project-5/static/media/map.2b7c48a7.svg",
+    "static/media/utensilsImg.svg": "/shital-giri-project-5/static/media/utensilsImg.4dd1c615.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0038b8c.js",
+    "static/js/2.278fc572.chunk.js",
+    "static/css/main.366fe8c2.chunk.css",
+    "static/js/main.fd1188f2.chunk.js"
+  ]
+}
