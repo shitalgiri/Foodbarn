@@ -132,7 +132,7 @@ class App extends Component {
           </div>
         </main>
         <footer>
-          <h2>©Copyright 2020 <a href="https://junocollege.com/" target="blank">Juno College</a></h2>
+          <h2>©Copyright 2020 Shital Giri. Created at <a href="https://junocollege.com/" target="blank">Juno College</a></h2>
           </footer>
       </div>
     );
