@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/shital-giri-project-5/precache-manifest.303d7c70dcf432cf236f7ca3de0a0a27.js"
+  "/shital-giri-project-5/precache-manifest.3f71dd4f8f5d10fbb5e6678f7795c796.js"
 );
 
 self.addEventListener('message', (event) => {

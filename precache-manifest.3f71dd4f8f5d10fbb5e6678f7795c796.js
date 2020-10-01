@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "06e4a39f1681e7c7715eeb9cf796e4ae",
+    "revision": "2bce7fa67513e298a7e5ad94fcaaf285",
     "url": "/shital-giri-project-5/index.html"
   },
   {
