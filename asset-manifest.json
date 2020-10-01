@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/shital-giri-project-5/static/css/main.c5702ec8.chunk.css",
-    "main.js": "/shital-giri-project-5/static/js/main.67f5db1d.chunk.js",
-    "main.js.map": "/shital-giri-project-5/static/js/main.67f5db1d.chunk.js.map",
+    "main.js": "/shital-giri-project-5/static/js/main.83b100fb.chunk.js",
+    "main.js.map": "/shital-giri-project-5/static/js/main.83b100fb.chunk.js.map",
     "runtime-main.js": "/shital-giri-project-5/static/js/runtime-main.a0038b8c.js",
     "runtime-main.js.map": "/shital-giri-project-5/static/js/runtime-main.a0038b8c.js.map",
     "static/js/2.278fc572.chunk.js": "/shital-giri-project-5/static/js/2.278fc572.chunk.js",
     "static/js/2.278fc572.chunk.js.map": "/shital-giri-project-5/static/js/2.278fc572.chunk.js.map",
     "index.html": "/shital-giri-project-5/index.html",
-    "precache-manifest.bbcf32158737d6b75eff1bacf34fe849.js": "/shital-giri-project-5/precache-manifest.bbcf32158737d6b75eff1bacf34fe849.js",
+    "precache-manifest.303d7c70dcf432cf236f7ca3de0a0a27.js": "/shital-giri-project-5/precache-manifest.303d7c70dcf432cf236f7ca3de0a0a27.js",
     "service-worker.js": "/shital-giri-project-5/service-worker.js",
     "static/css/main.c5702ec8.chunk.css.map": "/shital-giri-project-5/static/css/main.c5702ec8.chunk.css.map",
     "static/js/2.278fc572.chunk.js.LICENSE.txt": "/shital-giri-project-5/static/js/2.278fc572.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.a0038b8c.js",
     "static/js/2.278fc572.chunk.js",
     "static/css/main.c5702ec8.chunk.css",
-    "static/js/main.67f5db1d.chunk.js"
+    "static/js/main.83b100fb.chunk.js"
   ]
 }

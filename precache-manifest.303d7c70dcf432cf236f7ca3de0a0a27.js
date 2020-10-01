@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9f34508972d720d06420623020b38c8a",
+    "revision": "06e4a39f1681e7c7715eeb9cf796e4ae",
     "url": "/shital-giri-project-5/index.html"
   },
   {
-    "revision": "689c1537731a646fa409",
+    "revision": "e85726bb9932ace307e1",
     "url": "/shital-giri-project-5/static/css/main.c5702ec8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/shital-giri-project-5/static/js/2.278fc572.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "689c1537731a646fa409",
-    "url": "/shital-giri-project-5/static/js/main.67f5db1d.chunk.js"
+    "revision": "e85726bb9932ace307e1",
+    "url": "/shital-giri-project-5/static/js/main.83b100fb.chunk.js"
   },
   {
     "revision": "6474b941a96e42a8975c",
