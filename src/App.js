@@ -6,15 +6,14 @@ import Contents from "./Contents.js";
 class App extends Component {
   constructor() {
     super();
+    // Keep selected city and list of restaurants in the app component state.
     this.state = {
       selectedCity: 89,
+      // There should be an empty array for restaurants in an initial state.
       cityRestaurant: [],
     };
   }
 
-  showRestaurant = (restaurantsToBeShowed) => {
-    // const oldRestaurants = [...this.state.Contents];
-  };
   componentDidMount() {
     this.fetchCities(this.state.selectedCity);
   }
@@ -42,7 +41,9 @@ class App extends Component {
       });
     });
   };
+  //	Use onChange event listener on dropdown menu to get city name, then map city name to entity_id and search for restaurants using Zomato api, update the state for user’s selection.
   handleChange = (event) => {
+      // Create state to record user’s selection.
     this.setState({
       selectedCity: event.target.value,
       cityRestaurant: this.state.cityRestaurant,
@@ -77,8 +78,8 @@ class App extends Component {
               onChange={this.handleChange}
               value={this.state.selectedCity}
             >
-              <p>
-                <label>Select City: </label>
+                <label htmlFor="city">Select City: </label>
+                {/*	Users should be able to select the cities provided in a drop-down menu with appropriate entity_id from Zomato API. */}
                 <select id="city">
                   <option value="89">Toronto</option>
                   <option value="280">New York City</option>
@@ -92,15 +93,14 @@ class App extends Component {
                   <option value="84">Prague</option>
                   <option value="59">Istanbul</option>
                 </select>
-              </p>
             </fieldset>
             <fieldset className="priceOption">
-              <input type="radio" value="lowCost" id="radio1" onChange={this.handlePriceChange} checked={this.state.priceSelected === "lowCost"}/>
-              <label for="radio1"><span role="img" aria-label="a single dollar sign">💰</span></label>
-              <input type="radio" value="mediumCost" id="radio2" onChange={this.handlePriceChange} checked={this.state.priceSelected === "mediumCost"}/>
-              <label for="radio2"><span role="img" aria-label="a double dollar sign">💰💰</span></label>
-              <input type="radio" value="highCost" id="radio3" onChange={this.handlePriceChange} checked={this.state.priceSelected === "highCost"}/>
-              <label for="radio3"><span role="img" aria-label="a triple dollar sign">💰💰💰</span></label>
+              <input className="hidden" type="radio" value="lowCost" id="radio1" onChange={this.handlePriceChange} checked={this.state.priceSelected === "lowCost"}/>
+              <label htmlFor="radio1"><span role="img" aria-label="a single dollar sign">💰</span></label>
+              <input className="hidden" type="radio" value="mediumCost" id="radio2" onChange={this.handlePriceChange} checked={this.state.priceSelected === "mediumCost"}/>
+              <label htmlFor="radio2"><span role="img" aria-label="a double dollar sign">💰💰</span></label>
+              <input className="hidden" type="radio" value="highCost" id="radio3" onChange={this.handlePriceChange} checked={this.state.priceSelected === "highCost"}/>
+              <label htmlFor="radio3"><span role="img" aria-label="a triple dollar sign">💰💰💰</span></label>
             </fieldset>
           </form>
 
@@ -117,6 +117,7 @@ class App extends Component {
               } else {
                 return false;
               }
+              //	Display results by creating components based on the state(by using .map method):
             }).map((restro, index) => {
               return (
                 <Contents
@@ -124,6 +125,7 @@ class App extends Component {
                     this.showRestaurant(index);
                   }}
                   restro={restro.restaurant}
+                  key={restro.restaurant.id}
                 />
               );
             })}

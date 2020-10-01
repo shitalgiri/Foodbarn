@@ -2,8 +2,9 @@ import React from 'react';
 import mapImg from './images/map.svg';
 import utelsilImg from './images/utensilsImg.svg'
 
+
+// Use response from API call to create a component to render restaurants information. (Note: The response will contain a “restaurants” field that is an array with 0 or more objects.)
 const Contents = (props) => {
-    // console.log(props)
     return (
             <div className="restoDetail">
             <div>
