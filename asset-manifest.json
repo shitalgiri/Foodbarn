@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/shital-giri-project-5/static/css/main.c5702ec8.chunk.css",
-    "main.js": "/shital-giri-project-5/static/js/main.83b100fb.chunk.js",
-    "main.js.map": "/shital-giri-project-5/static/js/main.83b100fb.chunk.js.map",
-    "runtime-main.js": "/shital-giri-project-5/static/js/runtime-main.a0038b8c.js",
-    "runtime-main.js.map": "/shital-giri-project-5/static/js/runtime-main.a0038b8c.js.map",
-    "static/js/2.278fc572.chunk.js": "/shital-giri-project-5/static/js/2.278fc572.chunk.js",
-    "static/js/2.278fc572.chunk.js.map": "/shital-giri-project-5/static/js/2.278fc572.chunk.js.map",
-    "index.html": "/shital-giri-project-5/index.html",
-    "precache-manifest.3f71dd4f8f5d10fbb5e6678f7795c796.js": "/shital-giri-project-5/precache-manifest.3f71dd4f8f5d10fbb5e6678f7795c796.js",
-    "service-worker.js": "/shital-giri-project-5/service-worker.js",
-    "static/css/main.c5702ec8.chunk.css.map": "/shital-giri-project-5/static/css/main.c5702ec8.chunk.css.map",
-    "static/js/2.278fc572.chunk.js.LICENSE.txt": "/shital-giri-project-5/static/js/2.278fc572.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/shital-giri-project-5/static/media/headerImg.b1236523.jpg",
-    "static/media/map.svg": "/shital-giri-project-5/static/media/map.2b7c48a7.svg",
-    "static/media/utensilsImg.svg": "/shital-giri-project-5/static/media/utensilsImg.4dd1c615.svg"
+    "main.css": "/foodbarn/static/css/main.60653ab2.chunk.css",
+    "main.js": "/foodbarn/static/js/main.da7b21df.chunk.js",
+    "main.js.map": "/foodbarn/static/js/main.da7b21df.chunk.js.map",
+    "runtime-main.js": "/foodbarn/static/js/runtime-main.d2516976.js",
+    "runtime-main.js.map": "/foodbarn/static/js/runtime-main.d2516976.js.map",
+    "static/js/2.278fc572.chunk.js": "/foodbarn/static/js/2.278fc572.chunk.js",
+    "static/js/2.278fc572.chunk.js.map": "/foodbarn/static/js/2.278fc572.chunk.js.map",
+    "index.html": "/foodbarn/index.html",
+    "precache-manifest.9c3ef668b8009c04ec07b3f74c68b1fe.js": "/foodbarn/precache-manifest.9c3ef668b8009c04ec07b3f74c68b1fe.js",
+    "service-worker.js": "/foodbarn/service-worker.js",
+    "static/css/main.60653ab2.chunk.css.map": "/foodbarn/static/css/main.60653ab2.chunk.css.map",
+    "static/js/2.278fc572.chunk.js.LICENSE.txt": "/foodbarn/static/js/2.278fc572.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/foodbarn/static/media/headerImg.b1236523.jpg",
+    "static/media/map.svg": "/foodbarn/static/media/map.2b7c48a7.svg",
+    "static/media/utensilsImg.svg": "/foodbarn/static/media/utensilsImg.4dd1c615.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a0038b8c.js",
+    "static/js/runtime-main.d2516976.js",
     "static/js/2.278fc572.chunk.js",
-    "static/css/main.c5702ec8.chunk.css",
-    "static/js/main.83b100fb.chunk.js"
+    "static/css/main.60653ab2.chunk.css",
+    "static/js/main.da7b21df.chunk.js"
   ]
 }
