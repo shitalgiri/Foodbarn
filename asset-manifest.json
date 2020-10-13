@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/foodbarn/static/css/main.60653ab2.chunk.css",
+    "main.css": "/foodbarn/static/css/main.f57515a9.chunk.css",
     "main.js": "/foodbarn/static/js/main.da7b21df.chunk.js",
     "main.js.map": "/foodbarn/static/js/main.da7b21df.chunk.js.map",
     "runtime-main.js": "/foodbarn/static/js/runtime-main.d2516976.js",
@@ -8,9 +8,9 @@
     "static/js/2.278fc572.chunk.js": "/foodbarn/static/js/2.278fc572.chunk.js",
     "static/js/2.278fc572.chunk.js.map": "/foodbarn/static/js/2.278fc572.chunk.js.map",
     "index.html": "/foodbarn/index.html",
-    "precache-manifest.9c3ef668b8009c04ec07b3f74c68b1fe.js": "/foodbarn/precache-manifest.9c3ef668b8009c04ec07b3f74c68b1fe.js",
+    "precache-manifest.79faf049a536cc1e6587c2d0adc536a5.js": "/foodbarn/precache-manifest.79faf049a536cc1e6587c2d0adc536a5.js",
     "service-worker.js": "/foodbarn/service-worker.js",
-    "static/css/main.60653ab2.chunk.css.map": "/foodbarn/static/css/main.60653ab2.chunk.css.map",
+    "static/css/main.f57515a9.chunk.css.map": "/foodbarn/static/css/main.f57515a9.chunk.css.map",
     "static/js/2.278fc572.chunk.js.LICENSE.txt": "/foodbarn/static/js/2.278fc572.chunk.js.LICENSE.txt",
     "static/media/App.css": "/foodbarn/static/media/headerImg.b1236523.jpg",
     "static/media/map.svg": "/foodbarn/static/media/map.2b7c48a7.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.d2516976.js",
     "static/js/2.278fc572.chunk.js",
-    "static/css/main.60653ab2.chunk.css",
+    "static/css/main.f57515a9.chunk.css",
     "static/js/main.da7b21df.chunk.js"
   ]
 }

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5183f866edef5baf1c79d4ebe5619106",
+    "revision": "6f65da86399c6d4589887c73bb6dcb39",
     "url": "/foodbarn/index.html"
   },
   {
-    "revision": "259479289ace32480f34",
-    "url": "/foodbarn/static/css/main.60653ab2.chunk.css"
+    "revision": "3cff5034ce6a073e58f4",
+    "url": "/foodbarn/static/css/main.f57515a9.chunk.css"
   },
   {
     "revision": "159cc5a19170da70387e",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/foodbarn/static/js/2.278fc572.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "259479289ace32480f34",
+    "revision": "3cff5034ce6a073e58f4",
     "url": "/foodbarn/static/js/main.da7b21df.chunk.js"
   },
   {
