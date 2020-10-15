@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/foodbarn/static/css/main.f57515a9.chunk.css",
-    "main.js": "/foodbarn/static/js/main.da7b21df.chunk.js",
-    "main.js.map": "/foodbarn/static/js/main.da7b21df.chunk.js.map",
-    "runtime-main.js": "/foodbarn/static/js/runtime-main.d2516976.js",
-    "runtime-main.js.map": "/foodbarn/static/js/runtime-main.d2516976.js.map",
-    "static/js/2.278fc572.chunk.js": "/foodbarn/static/js/2.278fc572.chunk.js",
-    "static/js/2.278fc572.chunk.js.map": "/foodbarn/static/js/2.278fc572.chunk.js.map",
-    "index.html": "/foodbarn/index.html",
-    "precache-manifest.79faf049a536cc1e6587c2d0adc536a5.js": "/foodbarn/precache-manifest.79faf049a536cc1e6587c2d0adc536a5.js",
-    "service-worker.js": "/foodbarn/service-worker.js",
-    "static/css/main.f57515a9.chunk.css.map": "/foodbarn/static/css/main.f57515a9.chunk.css.map",
-    "static/js/2.278fc572.chunk.js.LICENSE.txt": "/foodbarn/static/js/2.278fc572.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/foodbarn/static/media/headerImg.b1236523.jpg",
-    "static/media/map.svg": "/foodbarn/static/media/map.2b7c48a7.svg",
-    "static/media/utensilsImg.svg": "/foodbarn/static/media/utensilsImg.4dd1c615.svg"
+    "main.css": "/Foodbarn/static/css/main.22ebd71b.chunk.css",
+    "main.js": "/Foodbarn/static/js/main.c13b8a5b.chunk.js",
+    "main.js.map": "/Foodbarn/static/js/main.c13b8a5b.chunk.js.map",
+    "runtime-main.js": "/Foodbarn/static/js/runtime-main.1569b98e.js",
+    "runtime-main.js.map": "/Foodbarn/static/js/runtime-main.1569b98e.js.map",
+    "static/js/2.278fc572.chunk.js": "/Foodbarn/static/js/2.278fc572.chunk.js",
+    "static/js/2.278fc572.chunk.js.map": "/Foodbarn/static/js/2.278fc572.chunk.js.map",
+    "index.html": "/Foodbarn/index.html",
+    "precache-manifest.db9648ed1075e80badac62d16eb5a429.js": "/Foodbarn/precache-manifest.db9648ed1075e80badac62d16eb5a429.js",
+    "service-worker.js": "/Foodbarn/service-worker.js",
+    "static/css/main.22ebd71b.chunk.css.map": "/Foodbarn/static/css/main.22ebd71b.chunk.css.map",
+    "static/js/2.278fc572.chunk.js.LICENSE.txt": "/Foodbarn/static/js/2.278fc572.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Foodbarn/static/media/headerImg.b1236523.jpg",
+    "static/media/map.svg": "/Foodbarn/static/media/map.2b7c48a7.svg",
+    "static/media/utensilsImg.svg": "/Foodbarn/static/media/utensilsImg.4dd1c615.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d2516976.js",
+    "static/js/runtime-main.1569b98e.js",
     "static/js/2.278fc572.chunk.js",
-    "static/css/main.f57515a9.chunk.css",
-    "static/js/main.da7b21df.chunk.js"
+    "static/css/main.22ebd71b.chunk.css",
+    "static/js/main.c13b8a5b.chunk.js"
   ]
 }
